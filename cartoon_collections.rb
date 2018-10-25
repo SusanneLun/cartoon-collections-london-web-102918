@@ -7,7 +7,7 @@ end
 def summon_captain_planet(veggies)
  veggies.each do |veg_item| 
    veg_item << !
-   puts veggies
+   return veggies
 end
 end
 
