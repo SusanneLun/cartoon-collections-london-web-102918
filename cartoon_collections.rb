@@ -5,7 +5,8 @@ end
 end
 
 def summon_captain_planet(veggies)
- veggies.each do |veg, 
+ veggies.each do |veg_item| 
+   veggies << !
 end
 
 def long_planeteer_calls# code an argument here
