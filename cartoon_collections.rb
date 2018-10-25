@@ -5,8 +5,7 @@ end
 end
 
 def summon_captain_planet(veggies)
- veggies.each do |veg_item| veg_item.capitalize + "!"
-   return veggies
+ return veggies.each do |veg_item| veg_item.capitalize + "!"
 end
 end
 
