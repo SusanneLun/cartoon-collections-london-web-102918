@@ -5,14 +5,12 @@ end
 end
 
 def summon_captain_planet(veggies)
- veggies.each do |veg_item| 
-   veg_item << !
-   veg_item.capitalize
+ veggies.each do |veg_item| veg_item.capitalize + "!"
    return veggies
 end
 end
 
-
+return calls.map do |call| call.capitalize + "!"
 
 def long_planeteer_calls# code an argument here
   # Your code here
